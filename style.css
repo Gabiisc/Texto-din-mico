@@ -1,0 +1,13 @@
+.dynamic{
+    color: purple;
+}
+
+.dynamic::after {
+    content: '|';
+    animation: blink 0.5s infinite;
+}
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
